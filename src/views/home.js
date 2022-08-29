@@ -13,8 +13,8 @@ const Home = () => {
         <Row>
           <Col>
             <DetailsCard
-              title="Proyectos realizados"
-              text="Una calculadora, un juego de ta te ti, una aplicacion que muestra el clima y por supuesto esta app que muestra mi portfolio"
+              title="Cursos realizados"
+              text="Estoy finalizando Argentina programa, un curso de Egg, varios cursos de Udemy y un curso de oracle"
             />
           </Col>
           <Col>
@@ -25,8 +25,8 @@ const Home = () => {
           </Col>
           <Col>
             <DetailsCard
-              title="Cursos realizados"
-              text="Estoy finalizando Argentina programa, un curso de Egg, varios cursos de Udemy y un curso de oracle"
+              title="Proyectos realizados"
+              text="Una calculadora, un juego de ta te ti, una aplicacion que muestra el clima y por supuesto esta app que muestra mi portfolio"
             />
           </Col>
         </Row>
