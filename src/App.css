@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -29,21 +23,20 @@
   margin-right: auto;
 }
 
-.home {
-  display: flex;
-  justify-content: space-around;
-  width: 80%;
-}
-
 .infoCard {
-  margin-right: 10rem;
+  margin-bottom: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 640px) {
+  .home {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 640px) {
+  .home {
+    width: 80%;
   }
 }

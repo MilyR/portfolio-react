@@ -7,8 +7,11 @@ import Col from 'react-bootstrap/Col';
 const Home = () => {
   return (
     <div className="card-center home">
-      <InfoCard />
-
+      <Row>
+        <Col>
+            <InfoCard />
+        </Col>
+      </Row>
       <Container>
         <Row>
           <Col>

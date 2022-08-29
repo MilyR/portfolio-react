@@ -3,7 +3,7 @@ import img from '../img/vane.png';
 
 const InfoCard = () => {
   return (
-    <Card style={{ width: '18rem' }} className="infoCard">
+    <Card className="infoCard">
       <Card.Img variant="top" src={img} />
       <Card.Body>
         <Card.Title>Vanesa Rodriguez</Card.Title>
