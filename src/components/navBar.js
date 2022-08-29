@@ -16,7 +16,8 @@ const CustomNavBar = () => {
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#" onClick={event => handlenavigate(event, "/")}>Portfolio</Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav>
+            <Nav.Link onClick={event => handlenavigate(event, "/projects")}>Proyectos</Nav.Link>
             <Nav.Link onClick={event => handlenavigate(event, "/contact")}>Contacto</Nav.Link>
           </Nav>
         </Container>
